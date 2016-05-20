@@ -1,8 +1,13 @@
 # VERSION is the full Zenoss version; e.g., 5.0.0
 # SHORT_VERSION is the two-digit Zenoss version; e.g., 5.0
+
+# !! If you are changing either of these values, be sure you have also changed them in
+#  platform-build/versions
 VERSION         ?= 5.1.1
 SHORT_VERSION   ?= 5.1
 
+# !! If you are changing these values, be sure you have also changed them in
+#  platform-build/versions
 hbase_VERSION    = v14
 hdfs_VERSION     = v2
 opentsdb_VERSION = v21
